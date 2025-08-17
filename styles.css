@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Questrial";
+    src: url(fonts/Questrial-Regular.ttf);
+}
+
+body {
+    background-color: white;
+    font-family: "Questrial";
+    
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+nav {
+    
+    background-color: lightgray;
+    position: fixed;
+    width: 90%;
+    height: 3rem;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 1rem;
+}
+
+/* Responsive */
+@media screen {
+    
+}
